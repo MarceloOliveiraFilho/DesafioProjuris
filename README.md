@@ -1,13 +1,14 @@
 # Desafio Projuris
 
-## Em primeiro lugar ultilizei o IntelliJ para programar este desafio mas também testei algumas coisas no netbeas
-###Como foi solicitado no e-mail ultilizarei todos os exercícios via API quando tiver que mandar alguma informação eu ultilizarei um método POST, quando for apenas para pegar informações ultilizarei método do tipo GET. Cada exercício vou colocar aqui como mandar ou pegar as informações (sugiro o uso do postman ou qualquer aplicação que simule os métodos).
+## Em primeiro lugar ultilizei o IntelliJ para programar este desafio
 
-####comentei nos métodos das classes que tem calculo para melhor entendimento
+Como foi solicitado no e-mail ultilizarei todos os exercícios via API quando tiver que mandar alguma informação eu ultilizarei um método POST, quando for apenas para pegar informações ultilizarei método do tipo GET. Cada exercício vou colocar aqui como mandar ou pegar as informações (sugiro o uso do postman ou qualquer aplicação que simule os métodos).
+
+comentei nos métodos das classes que tem calculo para melhor entendimento
 
 1) Dados dois arrays, implementar um método que encontre a primeira ocorrência
 no segundo array.
-####Resposta:
+Resposta:
 Requisição POST para url http://localhost:8080/exercicio1
 com body do tipo JSON:
 {
@@ -33,7 +34,7 @@ Dado uma lista de funcionários, seu salário e departamento e cargo, calcule:
 ● Custo total por departamento
 ● Custo total por cargo
 O retorno deve ser uma implementação da Interface Calculo.
-####Resposta:
+Resposta:
 Requisição GET para url http://localhost:8080/exercicio3/total_cargo
 retorna Custo total por departamento.
 Requisição GET para url http://localhost:8080/exercicio3/total_departamento
